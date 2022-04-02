@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+}
+
+.App{
+
+  background-color: #fafafa;
+  
+}
+
+.postcontainer{
+  padding: 20px;
+  justify-content: center;
+}
+
+
+.app__header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  object-fit: contain;
+  border-bottom: 1px solid lightgray ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__signup{
+  display: flex;
+  flex-direction: column;
+}
+
+.signed__in{
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginname{
+  padding: 10px;
+}
